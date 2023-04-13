@@ -1,0 +1,25 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+
+.navegacion{
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  background-color :v.$primario;
+  font-family: 'Hind Siliguri',sans-serif;
+  color: beige;
+  border-radius: 1rem;
+  align-items: center;
+
+  &__heading{
+    margin-left: 1rem;
+  }
+
+  &__buscador{
+    margin-left: 3rem;
+    border-radius: 5rem;
+    height: 2rem;
+    border: none;
+  }
+}
