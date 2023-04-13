@@ -4,6 +4,7 @@
 @mixin telefono {
     @media (min-width: v.$telefono) {
         @content;
+        
     }
 }
 
@@ -16,6 +17,10 @@
 @mixin desktop {
     @media (min-width: v.$desktop) {
         @content;
+        display: grid;
+        grid-template-areas: "nav nav nav"
+                             "cont cont cont"
+                             "cont cont cont";
     }
 }
 
