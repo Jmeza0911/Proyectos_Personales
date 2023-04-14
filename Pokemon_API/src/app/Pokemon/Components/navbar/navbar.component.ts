@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+visible:boolean = true;
+
+activarNav(){
+this.visible=false
+}
 }
